@@ -51,6 +51,8 @@ int steuerMenu()
       default: printf("\nkein Kommando\n");
       }
     }while(kommando!=ITEM_ENDE);
+    
+    printf("Test von Tim");
    
     return(0);
   }
