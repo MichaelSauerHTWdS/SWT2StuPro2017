@@ -1,0 +1,11 @@
+gcc -Wall -std=c99   -c -o menu.o menu.c
+gcc -c -Wall -std=c99 scanflib.c -o scanflib.o
+scanflib.c:188:48: warning: equality comparison result unused [-Wunused-comparison]
+        bufferPointer[strlen(bufferPointer)-1] == '\n';
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~
+scanflib.c:188:48: note: use '=' to turn this equality comparison into an assignment
+        bufferPointer[strlen(bufferPointer)-1] == '\n';
+                                               ^~
+                                               =
+1 warning generated.
+gcc menu.o scanflib.o -o menu.out
