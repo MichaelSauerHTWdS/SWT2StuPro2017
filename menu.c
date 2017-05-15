@@ -5,7 +5,9 @@
 #define ITEM_KOM1   1
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
-#define ITEM_ENDE   4
+#define PTHEIS      4
+#define ITEM_ENDE   5
+
 
 
 
@@ -13,7 +15,8 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
                   " 2\t2.Kommando\n",
                   " 3\t3.Kommando\n",
-                  " 4\a\tEnde\n"};
+                  " 4\t4.PTHEIS\n",
+                  " 5\a\tEnde\n"};
 int steuerMenu(void);
 
 int main(int argc, char* argv[])
@@ -45,6 +48,8 @@ int steuerMenu()
       case  ITEM_KOM2:   printf("%s",komMenu[ITEM_KOM2]);
                          break;
       case  ITEM_KOM3:   printf("%s",komMenu[ITEM_KOM3]);
+                         break;
+        case  PTHEIS:    printf("%s",komMenu[PTHEIS]);
                          break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
                          break;
