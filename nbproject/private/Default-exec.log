@@ -1,0 +1,112 @@
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	-Wall
+	-std=c99
+	-c
+	-o
+	menu.o
+	menu.c
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	-Wall
+	-std=c99
+	-c
+	-o
+	menu.o
+	menu.c
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	-Wall
+	-std=c99
+	-c
+	-o
+	menu.o
+	menu.c
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	-Wall
+	-std=c99
+	-c
+	-o
+	menu.o
+	menu.c
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	-c
+	-Wall
+	-std=c99
+	scanflib.c
+	-o
+	scanflib.o
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	-c
+	-Wall
+	-std=c99
+	scanflib.c
+	-o
+	scanflib.o
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	-c
+	-Wall
+	-std=c99
+	scanflib.c
+	-o
+	scanflib.o
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	-c
+	-Wall
+	-std=c99
+	scanflib.c
+	-o
+	scanflib.o
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	menu.o
+	scanflib.o
+	-o
+	menu.out
+
+called: /Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/usr/bin/gcc
+	menu.o
+	scanflib.o
+	-o
+	menu.out
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	menu.o
+	scanflib.o
+	-o
+	menu.out
+
+called: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	/export/home_15/yneumann/NetBeansProjects/SWT2StuPro2017
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
+	menu.o
+	scanflib.o
+	-o
+	menu.out
+
