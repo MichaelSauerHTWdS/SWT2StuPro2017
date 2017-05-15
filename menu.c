@@ -6,6 +6,7 @@
 #define ITEM_KOM2   2
 #define ITEM_KOM3   3
 #define ITEM_ENDE   4
+#define ITEM_YNE    5
 
 
 
@@ -13,6 +14,7 @@ char * komMenu[]={"\n 0\tHilfetext\n",
                   " 1\t1.Kommando\n",
                   " 2\t2.Kommando\n",
                   " 3\t3.Kommando\n",
+                  " 5\t5.YNE\n",
                   " 4\a\tEnde\n"};
 int steuerMenu(void);
 
@@ -48,6 +50,8 @@ int steuerMenu()
                          break;
       case  ITEM_ENDE:   printf("%s",komMenu[ITEM_ENDE]);
                          break;
+        case  ITEM_YNE:  printf("%s", komMenu [ITEM_YNE]);                         
+                                
       default: printf("\nkein Kommando\n");
       }
     }while(kommando!=ITEM_ENDE);
