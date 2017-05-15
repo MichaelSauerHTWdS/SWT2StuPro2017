@@ -9,7 +9,7 @@
                    displayName="Important Files"
                    projectFiles="false"
                    kind="IMPORTANT_FILES_FOLDER">
-      <itemPath>makefile</itemPath>
+      <itemPath>Makefile</itemPath>
     </logicalFolder>
   </logicalFolder>
   <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
@@ -38,12 +38,8 @@
         </makeTool>
       </makefileType>
       <item path="menu.c" ex="false" tool="0" flavor2="3">
-        <cTool flags="0">
-        </cTool>
       </item>
       <item path="scanflib.c" ex="false" tool="0" flavor2="3">
-        <cTool flags="0">
-        </cTool>
       </item>
     </conf>
   </confs>
