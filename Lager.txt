@@ -1,0 +1,1 @@
+Die Klasse Lager beinhaltet die Grundfunktionen für das Ausgeben, Einlesen, Verbuchen, Tauschen und Verteilen von Waren.
