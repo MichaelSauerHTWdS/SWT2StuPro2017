@@ -1,4 +1,6 @@
+//Spieleprojekt-Kontor-2017
 //enum Waren nun eigene Klasse
+
 
 public class Lager{
   private int lager; 
