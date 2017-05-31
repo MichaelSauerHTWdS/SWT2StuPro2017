@@ -10,9 +10,12 @@ public class Lager{
   //Min= Sperrbestand bei dem z.B. beim Kontor wieder waren dazugebucht werden muessen 
   //(Vorgabe Kontor unendlich Waren eines Typs)
   
+  /** Max= maximale kapazitaet eines Lagers.
+  * nach deren ueberschreiten werden entweder 
+  * keine Waren mehr akzeptiert oder nicht mehr verbucht
+  */
   private int const lagerMengeMax;
-  //Max= maximale kapazitaet eines Lagers, nach deren ueberschreiten werden entweder 
-  //keine Waren mehr akzeptiert oder nicht mehr verbucht
+
 
   private int bestand[anzahlWaren];
   //Aktueller Bestand eines Lagers in Form eines Arrays.
@@ -31,7 +34,13 @@ public class Lager{
     return lagerMengeMin;
   }
   
-  //kann die pruefeFunkition, oder Teile davon ausgelagert werden? -> Modularer?
+  /** kann die pruefeFunkition, oder Teile davon ausgelagert werden? -> Modularer?
+   * 
+   * @param zugang
+   * @param warenIndex
+   * @param warenMenge
+   * @throws LagerException 
+   */
   public void pruefeMenge(short zugang,short warenIndex,int warenMenge) throws LagerException{
   int referenz = 0;
     if (warenMenge < 0){
