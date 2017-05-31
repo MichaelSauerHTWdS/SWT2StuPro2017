@@ -5,8 +5,11 @@
 public class Lager{
   private int lager; 
   //private int const anzahlWaren=8;//sizeof enum?
-  private int const anzahlWaren = Waren.warenAnzahl;
-  private int const lagerMengeMin;
+  // Ein bisschen Starthilfe: Das Schlüsselwort const ist reserviert, wird aber
+  // von Java nicht benutzt. In Java heißt das final!
+  private final int anzahlWaren = Waren.values().length;
+  // s.o. + bei Konstanten muss eine Definition enthalten sein!        
+  private final int lagerMengeMin=0;
   //Min= Sperrbestand bei dem z.B. beim Kontor wieder waren dazugebucht werden muessen 
   //(Vorgabe Kontor unendlich Waren eines Typs)
   
@@ -14,9 +17,11 @@ public class Lager{
   * nach deren ueberschreiten werden entweder 
   * keine Waren mehr akzeptiert oder nicht mehr verbucht
   */
-  private int const lagerMengeMax;
+  private final int lagerMengeMax=100;
 
-
+  /* Ab hier sollte der Autor dann doch selber mal die Vorlesungsunterlagen, die
+  Sekundärliteratur und die API bemühen!
+  */
   private int bestand[anzahlWaren];
   //Aktueller Bestand eines Lagers in Form eines Arrays.
   //bestand [i][j] var i=> enum(Warennamen) var j=Bestand der jeweiligen Ware

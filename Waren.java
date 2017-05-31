@@ -1,25 +1,38 @@
 public enum Waren{
-    0("Tuche"), 
-    1("Stockfisch"), 
-    2("Bier"),
-    3("Wein"),
-    4"Zinn"),
-    5("Salz"),
-    6("Pelze"),
-    7("Kupfer");
+    Tuche, 
+    Stockfisch, 
+    Bier,
+    Wein,
+    Zinn,
+    Salz,
+    Pelze,
+    Kupfer;
   
+    /* Warum braucht man das, das ist doch schon im enum drin?
     private String warenName;
+    */
+    
+    /* könnte man auch so aufrufen, wenn man es benötigt
     public static int warenAnzahl = Waren.values().length;
+    */
   
+    /* Warum braucht man das, das ist doch schon im enum drin?
     Waren(int warenIndex){
         this.warenName=warenIndex;
-     }
+     }*/
   
+    /* s.o.
     public String getwarenName(){
       return warenName;
-    }
+    }*/
   
-      public int getwarenAnzahl(){
-      return warenAnzahl;
+      
+    /* Das mit der Anzahl macht m. E. so keinen Sinn, denn man bracht ja
+    sicher mehrere Lager von Waren und die können dann ja nicht alle die
+    gleiche Anzahl haben.
+    public int getwarenAnzahl()
+    {
+        return warenAnzahl;
     }
+    */
 };
